@@ -1,4 +1,4 @@
-baseURL = "https://pramendraatwork.github.io/my-devops-blog/"
+baseURL = "https://pramendraatwork.github.io/my-devops-blogs/"
 languageCode = "en-us"
 title = "DevOps Notes | Pramendra Rajput"
 theme = "PaperMod"

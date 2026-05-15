@@ -1,19 +1,3 @@
-+++
-title = 'Linux Introduction'
-date = 2026-05-15T08:59:24Z
-draft = true
-+++
----
-title: "Linux — The Complete Beginner to DevOps Guide"
-date: 2024-02-10
-draft: false
-description: "Everything you need to know about Linux: folder structure, user management, file management with real commands and diagrams."
-categories: ["linux"]
-tags: ["linux", "bash", "shell", "filesystem", "users", "files"]
-showToc: true
-TocOpen: true
----
-
 ## 1. What is Linux? 🐧
 
 Linux is the **backbone of the internet**. Almost every server, cloud instance, container, and supercomputer runs Linux. As a DevOps engineer, Linux is not optional — it IS your work environment.

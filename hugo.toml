@@ -1,0 +1,90 @@
+baseURL = "https://pramendraatwork.github.io/my-devops-blog/"
+languageCode = "en-us"
+title = "DevOps Notes | Pramendra Rajput"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+enableRobotsTXT = true
+buildDrafts = false
+
+[params]
+  env = "production"
+  author = "Pramendra Rajput"
+  profileMode = { enabled = true, title = "Hey, I'm PRAMENDRA RAJPUT 👋", subtitle = "DevOps engineer sharing notes on AWS, Kubernetes, Docker, Terraform, CI/CD and Linux.", imageUrl = "", imageTitle = "" }
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  UseHugoToc = true
+  showtoc = true
+  defaultTheme = "auto"
+
+  disableThemeToggle = false
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/pramendra-rajpoot-0518803b0/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/pramendraatwork"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:pramendraatwork@gmail.com"
+
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    limit = 10
+    keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Linux"
+    url = "/categories/linux/"
+    weight = 2
+  [[menu.main]]
+    name = "Git & GitHub"
+    url = "/categories/git/"
+    weight = 3
+  [[menu.main]]
+    name = "Jenkins"
+    url = "/categories/jenkins/"
+    weight = 4
+  [[menu.main]]
+    name = "CI/CD"
+    url = "/categories/ci-cd/"
+    weight = 5
+  [[menu.main]]
+    name = "Docker"
+    url = "/categories/docker/"
+    weight = 6
+  [[menu.main]]
+    name = "Kubernetes"
+    url = "/categories/kubernetes/"
+    weight = 7
+  [[menu.main]]
+    name = "AWS"
+    url = "/categories/aws/"
+    weight = 8
+  [[menu.main]]
+    name = "Monitoring"
+    url = "/categories/monitoring/"
+    weight = 9
+  [[menu.main]]
+    name = "Security"
+    url = "/categories/security/"
+    weight = 10
+  [[menu.main]]
+    name = "Terraform"
+    url = "/categories/terraform/"
+    weight = 11
+  [[menu.main]]
+    name = "🔍"
+    url = "/search/"
+    weight = 12
